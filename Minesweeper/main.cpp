@@ -369,7 +369,7 @@ int main() {
                 if (event.mouseButton.button == sf::Mouse::Left) {
                     
                     //Normal Button Operations
-                    if (buttonPressed(happy, sf::Mouse::getPosition(game))) { //gameStatus != Paused && is just my own preference, do not submit it like that
+                    if (gameStatus != Paused && buttonPressed(happy, sf::Mouse::getPosition(game))) { //gameStatus != Paused && is just my own preference, do not submit it like that
                         //Reset the tiles map & Timer = Start new game  
                         once = false;
                         //Update LeaderBoard from Last Games
