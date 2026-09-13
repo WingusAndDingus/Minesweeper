@@ -1,0 +1,19 @@
+﻿[
+  {
+    "directory": "C:/Users/ferhe/Desktop/MS/Minesweeper/",
+    "command": "\"C:/Users/ferhe/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"C:/Users/ferhe/Desktop/MS/Minesweeper/Minesweeper/Tile.cpp\" -std=c++14 -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-D_DEBUG\" \"-D_CONSOLE\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/include\" -isystem\"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/atlmfc/include\" -isystem\"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/cppwinrt\"",
+    "file": "C:/Users/ferhe/Desktop/MS/Minesweeper/Minesweeper/Tile.cpp"
+  }
+  ,
+  {
+    "directory": "C:/Users/ferhe/Desktop/MS/Minesweeper/",
+    "command": "\"C:/Users/ferhe/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"C:/Users/ferhe/Desktop/MS/Minesweeper/Minesweeper/main.cpp\" -std=c++14 -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-D_DEBUG\" \"-D_CONSOLE\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/include\" -isystem\"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/atlmfc/include\" -isystem\"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/cppwinrt\"",
+    "file": "C:/Users/ferhe/Desktop/MS/Minesweeper/Minesweeper/main.cpp"
+  }
+  ,
+  {
+    "directory": "C:/Users/ferhe/Desktop/MS/Minesweeper/",
+    "command": "\"C:/Users/ferhe/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"C:/Users/ferhe/Desktop/MS/Minesweeper/Minesweeper/Board.cpp\" -std=c++14 -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-D_DEBUG\" \"-D_CONSOLE\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/include\" -isystem\"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/atlmfc/include\" -isystem\"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/cppwinrt\"",
+    "file": "C:/Users/ferhe/Desktop/MS/Minesweeper/Minesweeper/Board.cpp"
+  }
+]

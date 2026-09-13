@@ -1,0 +1,81 @@
+@startuml
+class "Tile" as C_0005250804619194155145
+class C_0005250804619194155145 {
++Tile(int num, int colNu, int rowNu) : void
+..
++flag() : void
++hasMine() : bool
++insert(std::vector<Tile *> adtiles) : void
++isFlagged() : bool
++minePlace() : void
++number() : int
++removeMine() : void
++unFlag() : void
+__
++Digit : Sprite
++Flag : Sprite
++Mine : Sprite
++adjMines : int
++adjacentTiles : std::vector<Tile *>
++blown : bool
++colNum : int
+-flagged : bool
+-hasmine : bool
++revealed : bool
++rowNum : int
++tile : Sprite
++tilenum : int
+}
+enum "GameStatus" as C_0013302321448474623153
+enum C_0013302321448474623153 {
+Paused
+Normal
+Leader
+Victory
+Loss
+}
+class "Board" as C_0010358599209595726571
+class C_0010358599209595726571 {
++Board(int cols, int rows, int mines) : void
+..
++Adjacent(int cols, int rows) : void
++blowUp() : void
++draw(RenderWindow & window) : void
++findTileIndex(Vector2i coords) : int
++indexFromXY(int x, int y) : int
++mouseLeft(Vector2i coords) : GameStatus
++mouseRight(Vector2i coords) : int
++placeRandMines() : void
++revealBasics(int index) : void
++setTile(sf::Sprite & tile, float x, float y) : void
++unBlow() : void
+__
++countVic : int
+-digitText : Texture
+-flagText : Texture
+-gameStat : GameStatus
+-mineText : Texture
+-numCol : int
++numMines : int
+-numRow : int
++paused : bool
+-tileRevText : Texture
+-tileText : Texture
+-tiles : std::vector<Tile>
+}
+class "LeaderPerson" as C_0003930978828989832433
+class C_0003930978828989832433 {
++LeaderPerson(string line) : void
+__
++actualTime : int
++name : string
++timeMin : string
++timeSec : string
+}
+C_0005250804619194155145 --> C_0005250804619194155145 : +adjacentTiles
+C_0010358599209595726571 o-- C_0013302321448474623153 : -gameStat
+C_0010358599209595726571 o-- C_0005250804619194155145 : -tiles
+
+'Generated with clang-uml, version 0.6.3
+'LLVM version clang version 22.1.8 (https://github.com/llvm/llvm-project.git ca7933e47d3a3451d81e72ac174dcb5aa28b59d1)
+@enduml

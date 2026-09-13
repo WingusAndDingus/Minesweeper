@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Build Minesweeper (SFML)",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "-g",
+                "${workspaceFolder}/Minesweeper/*.cpp",
+                "-o",
+                "${workspaceFolder}/Minesweeper/main.exe",
+                "-I${workspaceFolder}/SFML-2.5.1/include",
+                "-L${workspaceFolder}/SFML-2.5.1/lib",
+                "-lsfml-graphics",
+                "-lsfml-window",
+                "-lsfml-system"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}

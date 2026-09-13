@@ -1,0 +1,29 @@
+compilation_database_dir: .
+output_directory: diagrams
+
+# Pass the SFML include path to clang-uml's parser
+add_compile_flags:
+  - "-std=c++17"
+  - "-ISFML-2.5.1/include"
+
+diagrams:
+  minesweeper_classes:
+    type: class
+    glob:
+      - "**/*.cpp"
+      - "**/*.h"
+      - "**/*.hpp"
+    include:
+      paths:
+        - .
+    exclude:
+      # Exclude external libraries and system headers from diagram generation
+      paths:
+        - "SFML-2.5.1/*"
+        - "C:/Program Files*"
+        - "C:/MSVC*"
+      namespaces:
+        - std
+        - __crt
+        - stdext
+        - sf
